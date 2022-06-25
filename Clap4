@@ -28,7 +28,7 @@ int main()
           s[i].tot=s[i].tot+s[i].m[j];
       }
   printf("total marks:%d",s[i].tot);
-  s[i].avg=(s[i].tot)/6;
+  s[i].avg=(float)(s[i].tot)/6;
   printf("\navg marks of the student is:%0.2f",s[i].avg);
       }
   
