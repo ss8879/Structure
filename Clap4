@@ -15,11 +15,11 @@ int main()
   scanf("%d",&n);
   for(i=0;i<n;i++){
       printf("\nenter name of the student:");
-      scanf("%s",s[i].N);
+      scanf("%s",&s[i].N);
       printf("\n enter DOB:");
-      scanf("%s",s[i].DOB);
+      scanf("%s",&s[i].DOB);
       printf("\n enter roll number:");
-      scanf("%s",s[i].roll);
+      scanf("%d",&s[i].roll);
       printf("\n enter subject wise marks:");
       s[i].tot=0;
       for(j=0;j<6;j++){
